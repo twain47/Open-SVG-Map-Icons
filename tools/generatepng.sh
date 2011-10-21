@@ -9,7 +9,7 @@ BASEFOLDER=`dirname $BASEFOLDER`
 TYPES=(             'accommodation' 'amenity' 'barrier' 'education' 'food'    'health'  'landuse' 'money'   'place_of_worship' 'poi'     'power'    'shopping' 'sport'   'tourist' 'transport' 'water')
 FORGROUND_COLOURS=( '#0092DA'       '#734A08' '#666666' '#39AC39'   '#734A08' '#DA0092' '#999999' '#000000' '#000000'          '#000000'  '#8e7409'  '#AC39AC'  '#39AC39' '#734A08' '#0092DA'   '#0092DA')
 
-SIZES=(32 24 20 16 12)
+SIZES=(64 48 32 24 20 16 12)
 
 SVGFOLDER=${BASEFOLDER}/svg/
 OUTPUTFOLDER=${BASEFOLDER}/png/

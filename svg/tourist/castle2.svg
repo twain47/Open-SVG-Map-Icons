@@ -388,26 +388,6 @@
        style="fill:#111;stroke:#eee;stroke-width:3.40799999"
        id="path1329" />
   </g>
-  <g
-     id="layer3"
-     inkscape:label="Layout"
-     style="display:none;stroke:#757575;stroke-opacity:1"
-     transform="matrix(48.14969,0,0,48.14969,-536.27327,-33.306752)">
-    <rect
-       style="fill:none;stroke:#757575;stroke-width:0.10000000000000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
-       id="rect4134"
-       width="10"
-       height="10"
-       x="1"
-       y="1" />
-    <rect
-       style="fill:none;stroke:#757575;stroke-width:0.10000000000000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
-       id="rect4136"
-       width="8"
-       height="8"
-       x="2"
-       y="2" />
-  </g>
   <path
      style="font-size:20.57779693999999893px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none"
      d="m 49.302816,232.71463 0.353768,-96.69793 32.160709,0 0,32.16103 32.160707,0 0,-32.16103 32.16071,0 0,32.16103 32.16071,0 0,-32.16103 32.16071,0 0,96.48342 -32.16071,0 0,64.31916 32.16071,0 0,-32.15813 32.16071,0 0,32.15813 32.16071,0 0,-32.15813 32.16071,0 0,32.15813 0,32.16103 0,32.16104 3.83929,0 0,12.16103 -68.16071,0 0,84.32206 -160.803547,0 0,-225.12432 -32.516085,0.28944 0.0016,-0.0749 8e-6,-3e-5 z"

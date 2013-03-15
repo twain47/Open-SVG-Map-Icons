@@ -1,8 +1,31 @@
 #!/bin/bash
 
-# $1 filename
-# $2 background fill
-# $3 background stroke
-# $4 forground
+set -u
+set -e
 
-sed "s/fill:#111111/fill:${2};/g" < $1 | sed "s/fill:#111;/fill:${2};/g" | sed "s/stroke:#eeeeee/stroke:${3};/g" | sed "s/stroke:#eee;/stroke:${3};/g" | sed "s/fill:white/fill:${4};/g" | sed "s/stroke:white/stroke:${4};/g" | sed "s/fill:#ffffff/fill:${4};/g" | sed "s/stroke:#ffffff/stroke:${4};/g"
+recolour() {
+    filename="$1"
+    fill="$2"
+    stroke="$3"
+    background="$4"
+
+sed_script=$(cat << EOF
+    s/fill:#111111/fill:${fill};/g
+    s/fill:#111;/fill:${fill};/g
+    s/stroke:#eeeeee/stroke:${stroke};/g
+    s/stroke:#eee;/stroke:${stroke};/g
+    s/fill:white/fill:${background};/g
+    s/stroke:white/stroke:${background};/g
+    s/fill:#ffffff/fill:${background};/g
+    s/stroke:#ffffff/stroke:${background};/g
+EOF)
+
+    sed "$sed_script" $filename
+}
+
+if [[ $# -ne 4 ]]; then
+    echo "Usage: $0 filename fill stroke foreground"
+    exit 1
+fi
+
+recolour $@

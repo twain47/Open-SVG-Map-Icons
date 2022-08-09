@@ -1,0 +1,60 @@
+2011-04-06
+----------
+Created new <a href="https://github.com/twain47/Open-SVG-Map-Icons">github repository</a> for icon set
+
+2011-02-26
+----------
+Added power icons: power_tower_low, power_tower_high, power_tower_high2, power_substation, power_transformer
+Added sport_shooting, transport_miniroundabout_clockwise, transport_miniroundabout_anticlockwise, transport_speedbump, transport_subway and transport_slipway from potlatch2 icon set
+Added shopping_marketplace, shopping_vending_machine, shopping_toys
+Fixes to shopping_greengrocer, amenity_survey_point, poi_embassy, shopping_alcohol, shopping_estateagent, shopping_estateagent2, shopping_estateagent3, shopping_fish, shopping_mobile_phone, shopping_laundrette, sport_swimming_outdoor, sport_swimming_indoor
+Added icons from Mayeul Kauffmann: accommodation_hostel, food_ice_cream, poi_mountain_pass, transport_zebra_crossing, tourist_guidepost
+Added sport_canoe, sport_minature_golf, transport_emergency_phone, shopping_newspaper, tourist_wayside_shrine, tourist_wayside_cross, tourist_map, sport_stadium, amenity_town_hall, amenity_town_hall2, amenity_public_building, amenity_public_building2, shopping_department_store, amenity_library2, poi_tower_lookout, shopping_tobacco, shopping_hearing_aids, transport_dam, shopping_kiosk
+
+2011-02-15
+----------
+Added place_hamlet & place_suburb
+
+2011-01-18
+----------
+Added food_pizza and food_fastfood_pizza from Luca Delucchi
+Added shop_butcher2 from project of the week
+
+2010-12-22
+----------
+Added bed_and_breakfast2 and beirgarten
+
+2010-09-12
+----------
+Added airport_gate, attraction, chalet, college, college_vocational, entrance, exit, motel, nursery2, peak2, school_primary, school_secondary, turning_circle, weir
+
+2010-09-07
+----------
+Added selection of icons from project of the week: castle2, jewelry2, playground, fountain2, copyshop
+Added icons from RichardF: cattle_grid, blocks, cycle_barrier, kissing_gate
+Added: airport_terminal, clock, crane, doctors2 (Rod of Asclepius version), garden_centre, helicopter, helicopter_pad, place_of_worship_unknown2, theme_park, walking
+Updated: hospital, alcohol, firestation2, firestation3, police2, florist
+
+2010-06-02
+----------
+Update mine symbol, added abandoned mine.  Added Cave, Military Bunker, Grass, Hill, Quary, Scrub, Swamp.
+
+2010-05-25
+----------
+Added a small number of barrier icons (Bollard, Enterance, Gets, Lift Gate, Stile, Toll Booth)
+
+2010-04-28
+----------
+Added transport_parking_private (and variations)
+
+2010-02-14
+----------
+New layout and website
+
+2010-02-10
+----------
+Add extra options to produce png icons with glow
+
+2022-08-09
+----------
+Bring scripts up to date with modern distibution. Add CHANGELOG and SOURCES files that have been missed.

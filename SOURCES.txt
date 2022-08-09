@@ -1,0 +1,6 @@
+Nandhp: shopping_computer, shopping_jewelry2
+RichardF: barrier_cattle_grid, barrier_blocks, barrier_cycle_barrier, barrier_kissing_gate
+Peter Maiwald: amenity_playground
+Jason Woof: amenity_fountain2
+gulp21: tourist_castle2, shopping_copyshop
+

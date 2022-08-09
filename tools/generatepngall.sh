@@ -31,9 +31,9 @@ for (( i = 0 ; i < ${#TYPES[@]} ; i++ )) do
 
       for (( k = 0 ; k < ${#FORGROUND_COLOURS[@]} ; k++ )) do
         for (( j = 0 ; j < ${#SIZES[@]} ; j++ )) do
-          ${BASEFOLDER}/tools/recolourtopng.sh ${FILE} 'none' 'none' ${FORGROUND_COLOURS[k]} ${SIZES[j]} ${BASENAME}.p.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}
-          ${BASEFOLDER}/tools/recolourtopng.sh ${FILE} ${FORGROUND_COLOURS[k]} ${FORGROUND_COLOURS[k]} '#ffffff' ${SIZES[j]} ${BASENAME}.n.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}
-          convert ${BASENAME}.p.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}.png \( +clone -background "#ffffff" -shadow 8000x2-0+0 \) +swap -background none -layers merge +repage -trim ${BASENAME}.glow.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}.png
+          ${BASEFOLDER}/tools/recolourtopng.sh "${FILE}" 'none' 'none' "${FORGROUND_COLOURS[k]}" "${SIZES[j]}" "${BASENAME}.p.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}"
+          ${BASEFOLDER}/tools/recolourtopng.sh "${FILE}" "${FORGROUND_COLOURS[k]}" "${FORGROUND_COLOURS[k]}" '#ffffff' "${SIZES[j]}" "${BASENAME}.n.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}"
+          convert "${BASENAME}.p.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}.png" \( +clone -background "#ffffff" -shadow 8000x2-0+0 \) +swap -background none -layers merge +repage -trim ${BASENAME}.glow.${FORGROUND_COLOURS[k]:1}.${SIZES[j]}.png
         done
       done
 

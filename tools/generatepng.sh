@@ -30,8 +30,8 @@ for (( i = 0 ; i < ${#TYPES[@]} ; i++ )) do
       BASENAME=${OUTPUTFOLDER}${TYPES[i]}_${BASENAME%.*}
 
       for (( j = 0 ; j < ${#SIZES[@]} ; j++ )) do
-        ${BASEFOLDER}/tools/recolourtopng.sh ${FILE} 'none' 'none' ${FORGROUND_COLOURS[i]} ${SIZES[j]} ${BASENAME}.p.${SIZES[j]}
-        ${BASEFOLDER}/tools/recolourtopng.sh ${FILE} ${FORGROUND_COLOURS[i]} ${FORGROUND_COLOURS[i]} '#ffffff' ${SIZES[j]} ${BASENAME}.n.${SIZES[j]}
+        ${BASEFOLDER}/tools/recolourtopng.sh "${FILE}" 'none' 'none' "${FORGROUND_COLOURS[i]}" "${SIZES[j]}" "${BASENAME}.p.${SIZES[j]}"
+        ${BASEFOLDER}/tools/recolourtopng.sh "${FILE}" "${FORGROUND_COLOURS[i]}" "${FORGROUND_COLOURS[i]}" '#ffffff' "${SIZES[j]} ${BASENAME}.n.${SIZES[j]}"
         convert ${BASENAME}.p.${SIZES[j]}.png \( +clone -background "#ffffff" -shadow 8000x2-0+0 \) +swap -background none -layers merge +repage -trim ${BASENAME}.glow.${SIZES[j]}.png
       done
 

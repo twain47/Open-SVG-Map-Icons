@@ -18,7 +18,8 @@ sed_script=$(cat << EOF
     s/stroke:white/stroke:${background};/g
     s/fill:#ffffff/fill:${background};/g
     s/stroke:#ffffff/stroke:${background};/g
-EOF)
+EOF
+)
 
     sed "$sed_script" $filename
 }
